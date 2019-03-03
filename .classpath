@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jdt.core-3.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.osgi_3.12.0.v20170512-1932.jar"/>
+	<classpathentry kind="lib" path="F:/jar包/JDT/org.eclipse.core.contenttype_3.4.200.v20140207-1251.jar"/>
+	<classpathentry kind="lib" path="F:/jar包/JDT/org.eclipse.core.jobs_3.6.0.v20140424-0053.jar"/>
+	<classpathentry kind="lib" path="F:/jar包/JDT/org.eclipse.core.resources_3.9.0.v20140514-1307.jar"/>
+	<classpathentry kind="lib" path="F:/jar包/JDT/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar"/>
+	<classpathentry kind="lib" path="F:/jar包/JDT/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar"/>
+	<classpathentry kind="lib" path="F:/jar包/JDT/org.eclipse.equinox.preferences_3.5.200.v20140224-1527.jar"/>
+	<classpathentry kind="lib" path="F:/jar包/JDT/org.eclipse.jdt.core_3.10.0.v20140604-1726.jar"/>
+	<classpathentry kind="lib" path="F:/jar包/JDT/org.eclipse.osgi_3.10.0.v20140606-1445.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

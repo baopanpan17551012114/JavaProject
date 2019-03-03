@@ -1,0 +1,1915 @@
+BufferedReader reader=null;
+reader=new BufferedReader(new FileReader(new File(filePath)));
+String line=null;
+while ((line=reader.readLine()) != null) {
+if (line.contains("string")) {
+break;
+text=text + line;
+text=text.replace("string","string").replace("string","string").replace("string","string").replace("string","string").replace("string","string").trim();
+List<String> list=new ArrayList<String>();
+String[] strs=text.split("string");
+for (  String str : strs) {
+if (str.equals("string")) {
+continue;
+list.add(str);
+str="string";
+for (  String str : list) {
+text=text + str + "string";
+return text;
+if (operationDesc == null) {
+return;
+Map outputParams=this.call.getOutputParams();
+for (int i=0; i < operationDesc.getNumParams(); i++) {
+Object param=proxyParams[i];
+ParameterDesc paramDesc=operationDesc.getParameter(i);
+if ((paramDesc.getMode() == 0) || (paramDesc.getMode() == 0)) {
+JavaUtils.setHolderValue((Holder)param,outputParams.get(paramDesc.getQName()));
+this.call.setProperty((String)objects[0],objects[0]);
+return null;
+if (method.getName().equals("string"))   return this.call.getProperty((String)objects[0]);
+if (method.getName().equals("string"))   return this.call.getPropertyNames();
+if (Object.class.equals(method.getDeclaringClass())) {
+return method.invoke(this.call,objects);
+Object outValue;
+Object outValue;
+if ((this.call.getTargetEndpointAddress() != null) && (this.call.getPortName() != null)) {
+this.call.setOperation(method.getName());
+Object[] paramsCall=proxyParams2CallParams(objects);
+outValue=this.call.invoke(paramsCall);
+else {
+Object outValue;
+if (this.portName != null) {
+this.call.setOperation(this.portName,method.getName());
+Object[] paramsCall=proxyParams2CallParams(objects);
+outValue=this.call.invoke(paramsCall);
+else {
+Object[] paramsCall=objects;
+outValue=this.call.invoke(method.getName(),paramsCall);
+callOutputParams2proxyParams(objects);
+return outValue;
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.startsWith("string")) {
+if (!importsList.contains(lineString.split("string")[0]) && lineString.split("string")[0].startsWith("string")) {
+importsList.add(lineString.split("string")[0].replace("string","string"));
+return importsList;
+File[] files=root.listFiles();
+for (  File file : files) {
+if (file.isDirectory()) {
+this.getAllJavaFile(file.getAbsolutePath(),fileList);
+if (file.isFile()) {
+if (file.getAbsolutePath().endsWith("string")) {
+if (!fileList.contains(file.getAbsolutePath())) {
+fileList.add(file.getAbsolutePath());
+List<String> fileList=new ArrayList<String>();
+new Helper_reflection().getAllJavaFile(fileName,fileList);
+for (  String file : fileList) {
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.startsWith("string")) {
+if (!importsList.contains(lineString.split("string")[0].replace("string","string")) && lineString.split("string")[0].startsWith("string")) {
+importsList.add(lineString.split("string")[0].replace("string","string"));
+return importsList;
+try {
+importList=new Helper_reflection().getProjectImports(fileName);
+catch (  Exception e1) {
+e1.printStackTrace();
+List<Object> totalList=new ArrayList<Object>();
+for (  String str : importList) {
+try {
+List<String> li=new LinkedList<String>();
+try {
+li=new Helper_reflection().getMethodsOfClass(str);
+catch (      ClassNotFoundException e) {
+e.printStackTrace();
+if (li.isEmpty()) {
+continue;
+List<Object> child=new ArrayList<Object>();
+child.add(str);
+child.add(li);
+totalList.add(child);
+catch (    ExceptionInInitializerError e) {
+continue;
+catch (    NoClassDefFoundError e1) {
+continue;
+return totalList;
+for (  String str : fileName) {
+try {
+List<String> li=new Helper_reflection().getMethodsOfClass(str);
+List<Object> child=new ArrayList<Object>();
+child.add(str);
+child.add(li);
+totalList.add(child);
+catch (    ClassNotFoundException e) {
+continue;
+catch (    NoClassDefFoundError e) {
+continue;
+return totalList;
+String method=str.split("string")[0];
+String str="string";
+for (int i=0; i < list.size(); i++) {
+List<Object> child=(List<Object>)list.get(i);
+String impor=(String)child.get(0);
+List<String> sele=(List<String>)child.get(0);
+if (sele.contains(method)) {
+repla=impor;
+if (repla.equals("string")) {
+return "string";
+else {
+return repla + "string" + method;
+File[] files=rootfile.listFiles();
+for (  File file : files) {
+if (file.isDirectory()) {
+fileList.add(file.getAbsolutePath());
+if (file.isFile()) {
+continue;
+reader=new BufferedReader(new FileReader(new File(old)));
+BufferedWriter writer=null;
+writer=new BufferedWriter(new FileWriter(new File(file)));
+List<String> liststr=new ArrayList<String>();
+String line=null;
+while ((line=reader.readLine()) != null) {
+String annotation=new Tools().getAnnotation(line);
+if (liststr.contains(annotation)) {
+continue;
+liststr.add(annotation);
+writer.append(line);
+writer.newLine();
+writer.flush();
+System.out.println(liststr.size());
+reader.close();
+writer.close();
+String str="string";
+List<String> methodsList=new LinkedList<String>();
+for (  String str : listoflist) {
+if (str.contains("string")) {
+methodsList.add(str);
+if (methodsList.isEmpty()) {
+return "string";
+List<String> classImports;
+List<Object> impor;
+try {
+classImports=new Helper_reflection().getImportsInAFile(filePath);
+impor=new Helper_reflection().getAllMethodsOFListImports(classImports);
+catch (  Exception e) {
+impor=new LinkedList<Object>();
+for (  String str : methodsList) {
+if (str.toCharArray()[0] >= 'C' && str.toCharArray()[0] <= 'C') {
+finalList.add(str);
+continue;
+replaced=new Helper_reflection().getReplacedAPI(impor,str);
+if (replaced.equals("string")) {
+replaced=new Helper_reflection().getReplacedAPI(pro_imports,str);
+finalList.add(replaced);
+if (finalList.isEmpty()) {
+return "string";
+else {
+String str="string";
+for (    String s : finalList) {
+final_string=final_string + s + "string";
+return final_string;
+String[] lines=method.split("string");
+List<String> list=new ArrayList<String>();
+for (int i=0; i < lines.length - 0; i++) {
+String line=lines[i];
+if (line.trim().length() == 0 || line.trim().equals("string")) {
+continue;
+list.add(line.trim());
+for (int i=0; index < list.size(); index++) {
+String one=list.get(index - 0);
+String two=list.get(index - 0);
+String three=list.get(index);
+String instance=one + "string" + two+ "string"+ three;
+result.add(instance);
+return result;
+String[] strs=line.split("string");
+for (  String str : strs) {
+if (str.equals("string") || str.equals("string") || str.equals("string")) {
+continue;
+list.add(str);
+String str="string";
+for (  String str : list) {
+result=result + str + "string";
+return result;
+reader=new BufferedReader(new FileReader(new File(filePath)));
+String str="string";
+String lineString=null;
+int i=0;
+while ((lineString=reader.readLine()) != null) {
+if (sign == 0) {
+text=text + lineString;
+if (lineString.contains("string")) {
+sign=0;
+String[] strList=text.trim().replace("string"string"string").replace("string"string"string").replace("string","string").replace("string"string"string").replace("\"string"string"string").replace("string"string"string").split("string");
+str="string";
+for (  String str : strList) {
+if (str.equals("string")) {
+continue;
+text=text + str + "string";
+return text;
+BufferedReader reader=new BufferedReader(new FileReader(filePath));
+char[] buf=new char[0];
+int i=0;
+while ((numRead=reader.read(buf)) != -0) {
+String readData=String.valueOf(buf,0,numRead);
+fileData.append(readData);
+buf=new char[024];
+reader.close();
+return fileData.toString();
+parser.setSource(str.toCharArray());
+parser.setKind(ASTParser.K_COMPILATION_UNIT);
+final CompilationUnit cu=(CompilationUnit)parser.createAST(null);
+MethodNodeVisitor methodNodeVisitor=new MethodNodeVisitor();
+cu.accept(methodNodeVisitor);
+for (  MethodDeclaration m : methodNodeVisitor.getMethodDecs()) {
+MyMethodNode mNode=new MyMethodNode();
+mNode.methodNode=m;
+NodeVisitor nv=new NodeVisitor();
+m.accept(nv);
+List<ASTNode> astnodes=nv.getASTNodes();
+for (    ASTNode node : astnodes) {
+MyASTNode myNode=new MyASTNode();
+myNode.astNode=node;
+myNode.lineNum=cu.getLineNumber(node.getStartPosition());
+mNode.nodeList.add(myNode);
+if (node.equals(m)) {
+continue;
+int pHashcode=node.getParent().getNodeType();
+int hashcode=node.getNodeType();
+int pphash=node.getParent().hashCode();
+int ppphash=node.hashCode();
+int[] link={pHashcode,hashcode,pphash,ppphash};
+mNode.mapping.add(link);
+methodNodeList.add(mNode);
+String dirPath=dirs.getCanonicalPath() + File.separator + "string"+ File.separator;
+File root=new File(dirPath);
+File[] files=root.listFiles();
+String filePath=null;
+for (  File f : files) {
+filePath=f.getAbsolutePath();
+if (f.isFile()) {
+parse(readFileToString(filePath));
+if (f.isFile()) {
+try {
+parse(readFileToString(filePath));
+catch (    IOException e) {
+e.printStackTrace();
+else {
+System.out.println("string");
+File filenew=new File(fileName);
+int index=filenew.getParent().indexOf("string");
+if (index == -0) {
+return;
+String packageNamePart=fileName.substring(index + 0).replace("string","string");
+String str="string";
+BufferedReader reader=null;
+FileWriter fw=null;
+BufferedWriter writer=null;
+FileReader fileReader=null;
+try {
+fileReader=new FileReader(fileName);
+catch (  FileNotFoundException e2) {
+e2.printStackTrace();
+int i=0;
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (countNum > begin && countNum < end && (lineString.contains("string") || lineString.contains("string"))) {
+String[] methods=lineString.split("string");
+for (        String str : methods) {
+if (str.contains("string")) {
+methodName=str.substring(0,str.indexOf("string")).replace("string","string").replace("string","string").replace("string","string").replace("\"string","string");
+countNum++;
+catch (  IOException e) {
+e.printStackTrace();
+if (methodName.equals("string")) {
+return;
+String newfilename=packageNamePart + "string" + fileNamePart+ "string"+ methodName+ "string";
+newfilename=newfilename.replace("string","string");
+newfilename=newfilename.replace("string","string");
+File file=new File(savefile + "string" + newfilename);
+if (file.exists()) {
+return;
+reader=null;
+fw=null;
+writer=null;
+fileReader=null;
+try {
+fileReader=new FileReader(fileName);
+catch (  FileNotFoundException e2) {
+e2.printStackTrace();
+i=0;
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+fw=new FileWriter(file,true);
+writer=new BufferedWriter(fw);
+while ((lineString=reader.readLine()) != null) {
+if (countNum == end) {
+break;
+if (countNum >= begin) {
+writer.append(lineString);
+writer.newLine();
+writer.flush();
+countNum++;
+catch (  IOException e) {
+e.printStackTrace();
+finally {
+if (reader != null) {
+try {
+reader.close();
+catch (      IOException e0) {
+try {
+fileReader.close();
+fw.close();
+writer.close();
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+String str="string";
+for (  MyASTNode mn : m.nodeList) {
+ASTNode astNode=mn.astNode;
+int nodeType=astNode.getNodeType();
+if (astNode.nodeClassForType(nodeType).toString().equals(methodDeclaration)) {
+method=astNode.toString();
+String str="string";
+String[] annotations=method.split("string");
+for (  String line : annotations) {
+line=line.trim();
+if (line.equals("string") || line.equals("string") || line.equals("string")) {
+continue;
+annotation=line.replace("string","string").trim();
+break;
+if (annotation.startsWith("string") || annotation.startsWith("string") || annotation.startsWith("string")) {
+annotation="string";
+return annotation;
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.contains("string")) {
+lineString=lineString.substring(lineString.indexOf("string"));
+if (lineString.split("string").length < 0) {
+continue;
+if (!importsList.contains(lineString.split("string")[0]) && (lineString.split("string")[0].startsWith("string") || lineString.split("string")[0].startsWith("string"))) {
+importsList.add(lineString.split("string")[0].replace("string","string"));
+return importsList;
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.contains("string")) {
+lineString=lineString.substring(lineString.indexOf("string"));
+if (lineString.split("string").length < 0) {
+continue;
+if (!importsList.contains(lineString.split("string")[0]) && (lineString.split("string")[0].startsWith("string") || lineString.split("string")[0].startsWith("string"))) {
+lineString=lineString.split("string")[0].replace("string","string");
+importsList.add(lineString.substring(lineString.lastIndexOf("string") + 0));
+importsList.add("string");
+return importsList;
+List<String> list=new ArrayList<String>();
+String str="";
+for (  MyASTNode mn : m.nodeList) {
+ASTNode astNode=mn.astNode;
+int nodeType=astNode.getNodeType();
+if (astNode.nodeClassForType(nodeType).toString().equals(declaration)) {
+String line=astNode.toString();
+list.add(line);
+return carvedmethod;
+String str="";
+String str="";
+List<String> list=new ArrayList<String>();
+List<String> list1=new ArrayList<String>();
+List<String> list2=new ArrayList<String>();
+for (  MyASTNode mn : m.nodeList) {
+ASTNode astNode=mn.astNode;
+int nodeType=astNode.getNodeType();
+if (astNode.nodeClassForType(nodeType).toString().equals(declaration)) {
+String line=astNode.toString();
+if (line.equals("string") || list.contains(line)) {
+continue;
+list.add(line);
+if (astNode.nodeClassForType(nodeType).toString().equals(declaration1)) {
+String line=astNode.toString();
+if (list1.contains(line)) {
+continue;
+list1.add(line);
+if (astNode.nodeClassForType(nodeType).toString().equals(declaration2)) {
+String line=astNode.toString();
+if (list2.contains(line)) {
+continue;
+list2.add(line);
+for (  String str : list) {
+if (str.contains("string")) {
+carvedmethod=carvedmethod.replace(str,"string");
+else {
+carvedmethod=carvedmethod.replace(str,"string");
+for (  String str : list1) {
+carvedmethod=carvedmethod.replace(str,"string");
+for (  String str : list2) {
+carvedmethod=carvedmethod.replace(str,"string");
+return carvedmethod;
+carvedmethod="string";
+return carvedmethod;
+String str="string";
+String str="string";
+for (  MyASTNode mn : m.nodeList) {
+ASTNode astNode=mn.astNode;
+int nodeType=astNode.getNodeType();
+if (astNode.nodeClassForType(nodeType).toString().equals(declaration)) {
+line=astNode.getParent().toString();
+break;
+List<String> line_list=new ArrayList<String>();
+String[] lines=line.split("string");
+for (int i=0; i < lines.length; i++) {
+if (lines[i].contains("string")) {
+break;
+if (!lines[i].contains("string")) {
+break;
+line_list.add(lines[i]);
+List<String> old_list=new ArrayList<String>();
+List<String> new_list=new ArrayList<String>();
+for (  String str : line_list) {
+str=str.replace("string","string");
+if (str.contains("string")) {
+str=str.split("string")[0];
+str=str.trim();
+int index=str.split("string").length - 0;
+old_list.add("string" + str.split("string")[index]);
+new_list.add(str.split("string")[index - 0]);
+if (!old_list.isEmpty()) {
+for (    String str : old_list) {
+int index=old_list.indexOf(str);
+String newStr=new_list.get(index);
+carvedmethod=carvedmethod.replace(str,newStr);
+if (carvedmethod.contains("string")) {
+carvedmethod=carvedmethod.replace("string","string");
+if (carvedmethod.contains("string")) {
+carvedmethod=carvedmethod.replace("string","string");
+if (carvedmethod.contains("string")) {
+carvedmethod=carvedmethod.replace("string","string");
+if (carvedmethod.contains("string")) {
+carvedmethod=carvedmethod.replace("string","string");
+if (carvedmethod.contains("string")) {
+carvedmethod=carvedmethod.replace("string","string");
+return carvedmethod;
+Class cls=null;
+try {
+cls=Class.forName(clsName);
+catch (  ClassNotFoundException e) {
+return list;
+for (int i=0; i < cls.getMethods().length; i++) {
+String string=cls.getMethods()[i].toString();
+String[] strs=string.split("string");
+for (    String str : strs) {
+if (str.contains("string")) {
+str=str.substring(0,str.indexOf("string"));
+str=str.substring(str.lastIndexOf("string") + 0);
+if (!list.contains(str)) {
+list.add(str);
+return list;
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.startsWith("string")) {
+if (!importsList.contains(lineString.split("string")[0]) && lineString.split("string")[0].startsWith("string")) {
+importsList.add(lineString.split("string")[0].replace("string","string"));
+return importsList;
+File[] files=root.listFiles();
+for (  File file : files) {
+if (file.isDirectory()) {
+this.getAllJavaFile(file.getAbsolutePath(),fileList);
+if (file.isFile()) {
+if (file.getAbsolutePath().endsWith("string")) {
+if (!fileList.contains(file.getAbsolutePath())) {
+fileList.add(file.getAbsolutePath());
+BufferedReader reader=null;
+int i=0;
+int i=0;
+int i=0;
+FileReader fileReader=null;
+try {
+fileReader=new FileReader(filePath);
+catch (  FileNotFoundException e2) {
+e2.printStackTrace();
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.contains("string")) {
+if (begin != 0) {
+end=count - 0;
+List<Integer> intList=new LinkedList<Integer>();
+intList.add(begin);
+intList.add(end);
+listoflist.add(intList);
+begin=count;
+if (begin == 0) {
+begin=count;
+count++;
+end=count;
+List<Integer> intList=new LinkedList<Integer>();
+intList.add(begin);
+intList.add(end);
+listoflist.add(intList);
+fileReader.close();
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+finally {
+if (reader != null) {
+try {
+reader.close();
+catch (      IOException e0) {
+for (  @SuppressWarnings("string") List list : listoflist) {
+try {
+new Tools().writeMethodToFile(filePath,(Integer)list.get(0),(Integer)list.get(0),saveFile);
+catch (    Exception e) {
+continue;
+List<String> fileList=new ArrayList<String>();
+new Helper_reflection().getAllJavaFile(fileName,fileList);
+for (  String file : fileList) {
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.startsWith("string")) {
+if (!importsList.contains(lineString.split("string")[0].replace("string","string")) && lineString.split("string")[0].startsWith("string")) {
+importsList.add(lineString.split("string")[0].replace("string","string"));
+return importsList;
+try {
+importList=new Helper_reflection().getProjectImports(fileName);
+catch (  Exception e1) {
+e1.printStackTrace();
+List<Object> totalList=new ArrayList<Object>();
+for (  String str : importList) {
+try {
+List<String> li=new LinkedList<String>();
+try {
+li=new Helper_reflection().getMethodsOfClass(str);
+catch (      ClassNotFoundException e) {
+e.printStackTrace();
+if (li.isEmpty()) {
+continue;
+List<Object> child=new ArrayList<Object>();
+child.add(str);
+child.add(li);
+totalList.add(child);
+catch (    ExceptionInInitializerError e) {
+continue;
+catch (    NoClassDefFoundError e1) {
+continue;
+return totalList;
+for (  String str : fileName) {
+try {
+List<String> li=new Helper_reflection().getMethodsOfClass(str);
+List<Object> child=new ArrayList<Object>();
+child.add(str);
+child.add(li);
+totalList.add(child);
+catch (    ClassNotFoundException e) {
+continue;
+catch (    NoClassDefFoundError e) {
+continue;
+return totalList;
+String method=str.split("string")[0];
+String str="string";
+for (int i=0; i < list.size(); i++) {
+List<Object> child=(List<Object>)list.get(i);
+String impor=(String)child.get(0);
+List<String> sele=(List<String>)child.get(0);
+if (sele.contains(method)) {
+repla=impor;
+if (repla.equals("string")) {
+return "string";
+else {
+return repla + "string" + method;
+File[] files=rootfile.listFiles();
+for (  File file : files) {
+if (file.isDirectory()) {
+fileList.add(file.getAbsolutePath());
+if (file.isFile()) {
+continue;
+String str="string";
+List<String> methodsList=new LinkedList<String>();
+for (  String str : listoflist) {
+if (str.contains("string")) {
+methodsList.add(str);
+if (methodsList.isEmpty()) {
+return "string";
+List<String> classImports;
+List<Object> impor;
+try {
+classImports=new Helper_reflection().getImportsInAFile(filePath);
+impor=new Helper_reflection().getAllMethodsOFListImports(classImports);
+catch (  Exception e) {
+impor=new LinkedList<Object>();
+for (  String str : methodsList) {
+if (str.toCharArray()[0] >= 'C' && str.toCharArray()[0] <= 'C') {
+finalList.add(str);
+continue;
+replaced=new Helper_reflection().getReplacedAPI(impor,str);
+if (replaced.equals("string")) {
+replaced=new Helper_reflection().getReplacedAPI(pro_imports,str);
+finalList.add(replaced);
+if (finalList.isEmpty()) {
+return "string";
+else {
+String str="string";
+for (    String s : finalList) {
+final_string=final_string + s + "string";
+return final_string;
+String[] lines=method.split("string");
+List<String> list=new ArrayList<String>();
+for (int i=0; i < lines.length - 0; i++) {
+String line=lines[i];
+if (line.trim().length() == 0 || line.trim().equals("string")) {
+continue;
+list.add(line.trim());
+for (int i=0; index < list.size(); index++) {
+String one=list.get(index - 0);
+String two=list.get(index - 0);
+String three=list.get(index);
+String instance=one + "string" + two+ "string"+ three;
+result.add(instance);
+return result;
+String[] strs=line.split("string");
+for (  String str : strs) {
+if (str.equals("string") || str.equals("string") || str.equals("string")) {
+continue;
+list.add(str);
+String str="string";
+for (  String str : list) {
+result=result + str + "string";
+return result;
+BufferedReader reader=new BufferedReader(new FileReader(new File(fileName)));
+String str="string";
+BufferedWriter writer=new BufferedWriter(new FileWriter(new File(fileWrite)));
+int i=0;
+String line=null;
+while ((line=reader.readLine()) != null && !(line=reader.readLine()).equals("string")) {
+line=reader.readLine().trim().replace("string","string").replace("string","string").split("string")[0];
+String[] apis=line.split("string");
+if (apis.length == 0) {
+continue;
+List<String> classList=new ArrayList<String>();
+for (    String str : apis) {
+String[] lefts=str.split("string");
+if (lefts.length < 0) {
+continue;
+if (!classList.contains(lefts[0])) {
+classList.add(lefts[0]);
+for (    String type : classList) {
+List<String> list=new ArrayList<String>();
+for (      String str : apis) {
+if (str.split("string").length < 0) {
+continue;
+if (type.equals(str.split("string")[0])) {
+list.add(str);
+if (list.size() == 0) {
+continue;
+String str="string";
+for (      String word : list) {
+result=result + word + "string";
+index++;
+writer.append(index + "string" + result);
+writer.newLine();
+writer.flush();
+int i=0;
+for (int i=0; i < list.size(); i++) {
+if (max < list.get(i)) {
+max=list.get(i);
+index=i;
+return index;
+File[] files=root.listFiles();
+int i=0;
+for (  File file : files) {
+if (file.isDirectory()) {
+this.getAllJavaFile(file.getAbsolutePath(),fileList);
+if (file.isFile()) {
+if (file.getAbsolutePath().endsWith("string")) {
+if (!fileList.contains(file.getAbsolutePath())) {
+fileList.add(file.getAbsolutePath());
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+List<String> lineList=new ArrayList<String>();
+String line=null;
+while ((line=reader.readLine()) != null) {
+String current=line.split("string")[0].trim().replace("string","string").replace("string","string");
+lineList.add(current);
+List<String> conList=new ArrayList<String>();
+List<Integer> countList=new ArrayList<Integer>();
+for (int i=0; i < lineList.size(); i++) {
+String current=lineList.get(i).trim().replace("string","string").replace("string","string");
+int i=0;
+if (conList.contains(current)) {
+continue;
+for (int j=i; j < lineList.size(); j++) {
+String compare=lineList.get(j);
+if (current.equals(compare)) {
+number++;
+countList.add(number);
+conList.add(current);
+BufferedWriter writer=new BufferedWriter(new FileWriter(new File("string")));
+int i=0;
+while (!conList.isEmpty()) {
+sign++;
+int most_index=new Helper_reflection().getMostList(countList);
+int max=countList.get(most_index);
+String current_line=conList.get(most_index);
+writer.append(sign + "string" + max+ "string"+ current_line);
+writer.newLine();
+writer.flush();
+conList.remove(most_index);
+countList.remove(most_index);
+BufferedReader reader=new BufferedReader(new FileReader(new File("string")));
+List<String> lineList=new ArrayList<String>();
+String line=null;
+while ((line=reader.readLine()) != null) {
+line=line.split("string")[0].trim().replace("string","string").replace("string","string");
+if (lineList.contains(line)) {
+continue;
+lineList.add(line);
+String[] words=lineIn.trim().replace("string","string").replace("string","string").split("string");
+for (  String currtentLine : lineList) {
+boolean my_boolean=true;
+String str="string";
+for (    String word : words) {
+word=word.trim();
+now_line=now_line + word + "string";
+if (currtentLine.contains(now_line)) {
+System.out.println(now_line);
+System.out.println(currtentLine);
+if (currtentLine.substring(currtentLine.indexOf(now_line) + now_line.length() + 0).trim() != "string") {
+String one_result=currtentLine.substring(currtentLine.indexOf(now_line) + now_line.length()).trim();
+if (!one_result.contains("string")) {
+recommendList.add(one_result);
+break;
+if (one_result.contains("string")) {
+recommendList.add(one_result.split("string")[0]);
+break;
+if (recommendList.size() > 00) {
+return recommendList;
+for (  String currtentLine : lineList) {
+if (currtentLine.contains(words[words.length - 0])) {
+if (currtentLine.substring(currtentLine.indexOf(words[words.length - 0]) + words[words.length - 0].length() + 0).trim() != "string") {
+String one_result=currtentLine.substring(currtentLine.indexOf(words[words.length - 0]) + words[words.length - 0].length() + 0).trim();
+if (!one_result.contains("string")) {
+if (recommendList.contains(one_result)) {
+continue;
+recommendList.add(one_result);
+continue;
+if (one_result.contains("string")) {
+if (recommendList.contains(one_result.split("string")[0])) {
+continue;
+recommendList.add(one_result.split("string")[0]);
+continue;
+System.out.println(recommendList);
+return recommendList;
+BufferedReader reader=new BufferedReader(new FileReader(new File(fileName)));
+String str="string";
+BufferedReader reader0=new BufferedReader(new FileReader(new File(fileWrite)));
+List<String> annotation=new ArrayList<String>();
+List<String> API=new ArrayList<String>();
+List<String> annotation_result=new ArrayList<String>();
+List<String> API_result=new ArrayList<String>();
+String line=null;
+while ((line=reader0.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string").split("string")[0];
+annotation.add(line);
+line=null;
+while ((line=reader.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string").split("string")[0];
+API.add(line);
+for (int i=0; index < annotation.size(); index++) {
+String line0=annotation.get(index);
+String line2=API.get(index);
+if (line0.equals("string")) {
+continue;
+if (line0.startsWith("string") || line0.startsWith("string")) {
+continue;
+if (line0.toCharArray()[0] < 'C' || line0.toCharArray()[0] > 'C') {
+continue;
+if (line0.contains("string")) {
+line0=line0.substring(0,line0.indexOf("string"));
+if (line0.trim().matches("string")) {
+line0=line0.replace("string","string").trim();
+if (annotation_result.contains(line0) || API_result.contains(line2)) {
+continue;
+if (line0.trim().split("string").length < 0) {
+continue;
+annotation_result.add(line0);
+API_result.add(line2);
+System.out.println(API_result.size());
+System.out.println(annotation_result.size());
+BufferedWriter writer0=new BufferedWriter(new FileWriter(new File("D:/029API_new.txt")));
+BufferedWriter writer2=new BufferedWriter(new FileWriter(new File("D:/029annotation_new.txt")));
+for (int i=0; index < annotation_result.size(); index++) {
+writer0.append(API_result.get(index));
+writer0.newLine();
+writer0.flush();
+writer2.append(annotation_result.get(index));
+writer2.newLine();
+writer2.flush();
+BufferedReader reader=new BufferedReader(new FileReader(new File(path)));
+String str="string";
+BufferedWriter writer=new BufferedWriter(new FileWriter(new File(path_new)));
+List<String> list=new ArrayList<String>();
+List<String> word_list=new ArrayList<String>();
+String line=null;
+while ((line=reader.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string");
+line=line.toLowerCase();
+list.add(line);
+String[] words=line.split("string");
+for (    String word : words) {
+if (word.equals("string") || word_list.contains(word)) {
+continue;
+word_list.add(word);
+List<String> new_word_list=new ArrayList<String>();
+for (int i=0; i < word_list.size(); i++) {
+boolean my_boolean=true;
+for (int i=0; j < word_list.size(); j++) {
+if (word_list.get(i).equals(word_list.get(j) + "string")) {
+sign=false;
+break;
+if (sign) {
+new_word_list.add(word_list.get(i));
+for (  String line1 : list) {
+for (    String word1 : new_word_list) {
+if (line1.contains(word1 + "string")) {
+line1=line1.replace(word1 + "string",word1);
+writer.append(line1);
+writer.newLine();
+writer.flush();
+BufferedReader reader=new BufferedReader(new FileReader(new File(fileName)));
+String str="string";
+BufferedReader reader1=new BufferedReader(new FileReader(new File(fileWrite)));
+String str="string";
+BufferedReader reader2=new BufferedReader(new FileReader(new File(fileWrite1)));
+List<String> annotation=new ArrayList<String>();
+List<String> API=new ArrayList<String>();
+List<String> annotation_result=new ArrayList<String>();
+List<String> API_result=new ArrayList<String>();
+List<String> index_result=new ArrayList<String>();
+List<String> indexfile=new ArrayList<String>();
+int i=0;
+String line=null;
+while ((line=reader.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string");
+annotation.add(line);
+line=null;
+while ((line=reader1.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string");
+API.add(line);
+line=null;
+while ((line=reader2.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string");
+indexfile.add(line);
+for (int i=0; index < annotation.size(); index++) {
+String line1=annotation.get(index);
+String line2=API.get(index);
+String line3=indexfile.get(index);
+if (line1.contains("string")) {
+continue;
+if (line1.contains("string")) {
+continue;
+if (annotation_result.contains(line1) || API_result.contains(line2)) {
+continue;
+annotation_result.add(line1);
+API_result.add(line2);
+index_result.add(line3);
+if (annotation_result.contains(line1) || index_result.contains(line3)) {
+continue;
+annotation_result.add(line1);
+API_result.add(line2);
+index_result.add(line3);
+System.out.println(API_result.size());
+System.out.println(annotation_result.size());
+System.out.println(index_result.size());
+BufferedWriter writer1=new BufferedWriter(new FileWriter(new File("string")));
+BufferedWriter writer2=new BufferedWriter(new FileWriter(new File("string")));
+BufferedWriter writer3=new BufferedWriter(new FileWriter(new File("string")));
+for (int i=0; index < annotation_result.size(); index++) {
+writer1.append(API_result.get(index));
+writer1.newLine();
+writer1.flush();
+writer2.append(annotation_result.get(index));
+writer2.newLine();
+writer2.flush();
+writer3.append(index_result.get(index));
+writer3.newLine();
+writer3.flush();
+BufferedReader reader=new BufferedReader(new FileReader(new File(fileName)));
+List<String> word_list=new ArrayList<String>();
+String line=null;
+while ((line=reader.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string");
+if (line.contains("string")) {
+String[] words=line.split("string");
+for (      String word : words) {
+if (word_list.contains(word)) {
+continue;
+word_list.add(word);
+else {
+if (word_list.contains(line)) {
+continue;
+word_list.add(line);
+System.out.println(word_list.size());
+BufferedReader reader=new BufferedReader(new FileReader(new File(fileName)));
+String str="string";
+BufferedReader reader1=new BufferedReader(new FileReader(new File(fileWrite)));
+List<String> annotation=new ArrayList<String>();
+List<String> API=new ArrayList<String>();
+List<String> result=new ArrayList<String>();
+int i=0;
+String line=null;
+while ((line=reader.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string");
+annotation.add(line);
+line=null;
+while ((line=reader1.readLine()) != null) {
+line=line.trim().replace("string","string").replace("string","string");
+API.add(line);
+System.out.println(API.size() + "string" + annotation.size());
+for (int i=0; i < annotation.size(); i++) {
+String line1=annotation.get(i);
+String line2=API.get(i);
+if (line2.equals("string")) {
+result.add(line1);
+else {
+line2=line2.toLowerCase().replace("string","string").replace("string","string").replace("string","string");
+result.add(line1 + "string" + line2);
+System.out.println(result.size());
+BufferedWriter writer1=new BufferedWriter(new FileWriter(new File("string")));
+for (  String str : result) {
+writer1.append(str);
+writer1.newLine();
+writer1.flush();
+BufferedReader reader=new BufferedReader(new FileReader(new File(fileName)));
+String str="string";
+BufferedReader reader0=new BufferedReader(new FileReader(new File(fileWrite)));
+String str="string";
+BufferedReader reader0=new BufferedReader(new FileReader(new File(fileWrite0)));
+List<String> annotation=new ArrayList<String>();
+List<String> API=new ArrayList<String>();
+List<String> annotation_result=new ArrayList<String>();
+List<String> API_result=new ArrayList<String>();
+List<String> index_result=new ArrayList<String>();
+List<String> indexfile=new ArrayList<String>();
+int i=0;
+String line=null;
+while ((line=reader.readLine()) != null) {
+if (line.trim().replace("string","string").replace("string","string").split("string").length < 0) {
+break;
+line=line.trim().replace("string","string").replace("string","string").split("string")[0];
+annotation.add(line);
+line=null;
+while ((line=reader0.readLine()) != null) {
+if (!line.contains("string")) {
+break;
+line=line.trim().replace("string","string").replace("string","string").split("string")[0];
+API.add(line);
+line=null;
+while ((line=reader0.readLine()) != null) {
+if (!line.contains("string")) {
+break;
+line=line.trim().replace("string","string").replace("string","string").split("string")[0];
+indexfile.add(line);
+for (int i=0; index < annotation.size(); index++) {
+String line0=annotation.get(index);
+String line0=API.get(index);
+String line3=indexfile.get(index);
+if (line0.equals("string") && line0.equals("string")) {
+continue;
+if (line0.contains("string")) {
+line0=line0.trim().substring(0,line0.lastIndexOf("string"));
+String[] line0s=line0.split("string");
+line0="string";
+for (    String word : line0s) {
+if (word.equals("string")) {
+continue;
+line0=line0 + word + "string";
+line0=line0.trim();
+if (!line0.equals("string")) {
+line0=line0.replace("string","string");
+line0=line0 + line0;
+if (line0.contains("string")) {
+line0=line0.replace("string","string");
+char[] chars=line0.toCharArray();
+line0="string";
+for (int i=0; i < chars.length; i++) {
+if (chars[i] >= 'C' && chars[i] < 'C') {
+line0=line0 + 'C' + chars[i];
+continue;
+line0=line0 + chars[i];
+for (int i=0; i < chars.length; i++) {
+if (chars[i] == 'C') {
+continue;
+if (chars[i] < 'C' || chars[i] > 'C') {
+chars[i]='C';
+String[] line0ss=line0.split("string");
+line0="string";
+for (    String word : line0ss) {
+if (word.length() == 0 || word.equals("string")) {
+continue;
+line0=line0 + word + "string";
+annotation_result.add(line0);
+API_result.add(line0);
+index_result.add(line3);
+System.out.println(API_result.size());
+System.out.println(annotation_result.size());
+System.out.println(index_result.size());
+BufferedWriter writer0=new BufferedWriter(new FileWriter(new File("string")));
+BufferedWriter writer0=new BufferedWriter(new FileWriter(new File("string")));
+BufferedWriter writer3=new BufferedWriter(new FileWriter(new File("string")));
+for (int i=0; index < annotation_result.size(); index++) {
+writer0.append(API_result.get(index));
+writer0.newLine();
+writer0.flush();
+writer0.append(annotation_result.get(index));
+writer0.newLine();
+writer0.flush();
+writer3.append(index_result.get(index));
+writer3.newLine();
+writer3.flush();
+File[] files=root.listFiles();
+if (files.length == 0) {
+fileList=new LinkedList<String>();
+for (  File file : files) {
+if (file.isDirectory()) {
+this.getAllJavaFile(file.getAbsolutePath(),fileList);
+if (file.isFile()) {
+if (file.getAbsolutePath().endsWith("string")) {
+if (!fileList.contains(file.getAbsolutePath())) {
+fileList.add(file.getAbsolutePath());
+BufferedReader reader=null;
+FileWriter fw=null;
+BufferedWriter writer=null;
+FileReader fileReader=null;
+reader=null;
+fw=null;
+writer=null;
+fileReader=null;
+try {
+fileReader=new FileReader(fileName);
+catch (  FileNotFoundException e0) {
+e0.printStackTrace();
+int i=0;
+int i=0;
+int i=0;
+int i=0;
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+fw=new FileWriter(file,true);
+writer=new BufferedWriter(fw);
+while ((lineString=reader.readLine()) != null) {
+if (countNum == 0 && (!lineString.contains("string") || lineString.contains("string") || lineString.contains("string"))) {
+del=0;
+if (countNum == 0 && (lineString.contains("string") || lineString.contains("string") || lineString.contains("string"))) {
+del=0;
+if (lineString.contains("string") && lineString.contains("string")) {
+del=0;
+if (lineString.contains("string")) {
+de=countNum;
+count=0;
+countNum++;
+if (count != 0) {
+count++;
+if ((lineString.contains("string") && lineString.contains("string"))) {
+del=0;
+catch (  IOException e) {
+e.printStackTrace();
+try {
+fileReader.close();
+fw.close();
+writer.close();
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+if (del == 0 || count <= 0 || de > 0) {
+System.gc();
+boolean b=file.delete();
+BufferedReader reader=new BufferedReader(new FileReader(filePath));
+char[] buf=new char[0];
+int i=0;
+while ((numRead=reader.read(buf)) != -0) {
+String readData=String.valueOf(buf,0,numRead);
+fileData.append(readData);
+buf=new char[024];
+reader.close();
+return fileData.toString();
+parser.setSource(str.toCharArray());
+parser.setKind(ASTParser.K_COMPILATION_UNIT);
+final CompilationUnit cu=(CompilationUnit)parser.createAST(null);
+MethodNodeVisitor methodNodeVisitor=new MethodNodeVisitor();
+cu.accept(methodNodeVisitor);
+for (  MethodDeclaration m : methodNodeVisitor.getMethodDecs()) {
+MyMethodNode mNode=new MyMethodNode();
+mNode.methodNode=m;
+NodeVisitor nv=new NodeVisitor();
+m.accept(nv);
+List<ASTNode> astnodes=nv.getASTNodes();
+for (    ASTNode node : astnodes) {
+MyASTNode myNode=new MyASTNode();
+myNode.astNode=node;
+myNode.lineNum=cu.getLineNumber(node.getStartPosition());
+mNode.nodeList.add(myNode);
+if (node.equals(m)) {
+continue;
+int pHashcode=node.getParent().getNodeType();
+int hashcode=node.getNodeType();
+int pphash=node.getParent().hashCode();
+int ppphash=node.hashCode();
+int[] link={pHashcode,hashcode,pphash,ppphash};
+mNode.mapping.add(link);
+methodNodeList.add(mNode);
+String dirPath=dirs.getCanonicalPath() + File.separator + "string"+ File.separator;
+File root=new File(dirPath);
+File[] files=root.listFiles();
+String filePath=null;
+for (  File f : files) {
+filePath=f.getAbsolutePath();
+if (f.isFile()) {
+parse(readFileToString(filePath));
+if (f.isFile()) {
+try {
+parse(readFileToString(filePath));
+catch (    IOException e) {
+e.printStackTrace();
+else {
+System.out.println("string");
+File file=new File("string" + newfilename);
+if (file.exists()) {
+return;
+BufferedReader reader=null;
+FileWriter fw=null;
+BufferedWriter writer=null;
+FileReader fileReader=null;
+try {
+fileReader=new FileReader(fileName);
+catch (  FileNotFoundException e2) {
+e2.printStackTrace();
+int i=0;
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+fw=new FileWriter(file,true);
+writer=new BufferedWriter(fw);
+writer.append("string");
+writer.newLine();
+writer.flush();
+while ((lineString=reader.readLine()) != null) {
+if (countNum == end) {
+break;
+if (countNum >= begin) {
+writer.append(lineString);
+writer.newLine();
+writer.flush();
+countNum++;
+writer.append("string");
+writer.newLine();
+writer.flush();
+catch (  IOException e) {
+e.printStackTrace();
+finally {
+if (reader != null) {
+try {
+reader.close();
+catch (      IOException e0) {
+try {
+fileReader.close();
+fw.close();
+writer.close();
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+BufferedReader reader=null;
+try {
+reader=new BufferedReader(new FileReader(filePath));
+String lineString=null;
+int i=0;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.contains("string")) {
+break;
+countNumber++;
+int i=0;
+@SuppressWarnings("string") BufferedReader readernew=new BufferedReader(new FileReader(filePath));
+while ((lineString=readernew.readLine()) != null) {
+if (count == countNumber + 0) {
+line=lineString.replace("string","string");
+count++;
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+finally {
+if (reader != null) {
+try {
+reader.close();
+catch (      IOException e0) {
+if (line.split("string").length != 0 && line.trim().matches("string")) {
+return line.replace("string","string").trim();
+else   if (line.trim().equals("string") || line.trim().equals("string")) {
+return "string";
+else {
+return "string";
+BufferedReader reader=null;
+int i=0;
+int i=0;
+int i=0;
+FileReader fileReader=null;
+try {
+fileReader=new FileReader(filePath);
+catch (  FileNotFoundException e2) {
+e2.printStackTrace();
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.contains("string")) {
+if (begin != 0) {
+end=count - 0;
+List<Integer> intList=new LinkedList<Integer>();
+intList.add(begin);
+intList.add(end);
+listoflist.add(intList);
+begin=count;
+if (begin == 0) {
+begin=count;
+count++;
+end=count;
+List<Integer> intList=new LinkedList<Integer>();
+intList.add(begin);
+intList.add(end);
+listoflist.add(intList);
+fileReader.close();
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+finally {
+if (reader != null) {
+try {
+reader.close();
+catch (      IOException e0) {
+for (  @SuppressWarnings("string") List list : listoflist) {
+new Helper().writeMethodToFile(filePath,(Integer)list.get(0),(Integer)list.get(0));
+File filenew=new File(fileName);
+int index=filenew.getParent().indexOf("string");
+if (index == -0) {
+return;
+String packageNamePart=fileName.substring(index + 0).replace("string","string");
+String str="string";
+BufferedReader reader=null;
+FileWriter fw=null;
+BufferedWriter writer=null;
+FileReader fileReader=null;
+try {
+fileReader=new FileReader(fileName);
+catch (  FileNotFoundException e2) {
+e2.printStackTrace();
+int i=0;
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (countNum > begin && countNum < end && (lineString.contains("string") || lineString.contains("string"))) {
+String[] methods=lineString.split("string");
+for (        String str : methods) {
+if (str.contains("string")) {
+methodName=str.substring(0,str.indexOf("string")).replace("string","string").replace("string","string").replace("string","string").replace("\"string","string");
+countNum++;
+catch (  IOException e) {
+e.printStackTrace();
+if (methodName.equals("string")) {
+return;
+String newfilename=packageNamePart + "string" + fileNamePart+ "string"+ methodName+ "string";
+newfilename=newfilename.replace("string","string");
+newfilename=newfilename.replace("string","string");
+File file=new File(savefile + "string" + newfilename);
+if (file.exists()) {
+return;
+reader=null;
+fw=null;
+writer=null;
+fileReader=null;
+fileReader=new FileReader(fileName);
+i=0;
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+fw=new FileWriter(file,true);
+writer=new BufferedWriter(fw);
+writer.append("string");
+writer.newLine();
+writer.flush();
+while ((lineString=reader.readLine()) != null) {
+if (countNum == end) {
+break;
+if (countNum >= begin) {
+writer.append(lineString);
+writer.newLine();
+writer.flush();
+countNum++;
+try {
+writer.append("string");
+writer.newLine();
+writer.flush();
+catch (    IOException e) {
+e.printStackTrace();
+catch (  IOException e) {
+e.printStackTrace();
+try {
+reader.close();
+fileReader.close();
+fw.close();
+writer.close();
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+BufferedReader reader=null;
+int i=0;
+int i=0;
+int i=0;
+FileReader fileReader=null;
+try {
+fileReader=new FileReader(filePath);
+reader=new BufferedReader(fileReader);
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.contains("string")) {
+if (begin != 0) {
+end=count - 0;
+List<Integer> intList=new LinkedList<Integer>();
+intList.add(begin);
+intList.add(end);
+listoflist.add(intList);
+begin=count;
+if (begin == 0) {
+begin=count;
+count++;
+end=count;
+List<Integer> intList=new LinkedList<Integer>();
+intList.add(begin);
+intList.add(end);
+listoflist.add(intList);
+try {
+fileReader.close();
+reader.close();
+catch (    IOException e) {
+e.printStackTrace();
+finally {
+if (reader != null) {
+try {
+reader.close();
+catch (      IOException e0) {
+for (  @SuppressWarnings("string") List list : listoflist) {
+try {
+new Helper().writeMethodToFile0(filePath,(Integer)list.get(0),(Integer)list.get(0),saveFile);
+catch (    FileNotFoundException e) {
+continue;
+catch (    Exception e) {
+continue;
+File file=new File(delpath);
+if (!file.isDirectory()) {
+file.delete();
+else     if (file.isDirectory()) {
+File[] fileList=file.listFiles();
+for (int i=0; i < fileList.length; i++) {
+File delfile=fileList[i];
+if (delfile.isFile()) {
+System.gc();
+@SuppressWarnings("string") boolean whether=delfile.delete();
+catch (  Exception e) {
+System.out.println("string" + e.getMessage());
+return true;
+BufferedReader reader=null;
+try {
+reader=new BufferedReader(new FileReader(filePath));
+String lineString=null;
+int i=0;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.contains("string")) {
+break;
+countNumber++;
+int i=0;
+@SuppressWarnings("string") BufferedReader readernew=new BufferedReader(new FileReader(filePath));
+while ((lineString=readernew.readLine()) != null) {
+if (count == countNumber + 0) {
+line=lineString.replace("string","string");
+count++;
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+finally {
+if (reader != null) {
+try {
+reader.close();
+catch (      IOException e0) {
+if (line.split("string").length != 0 && line.trim().matches("string")) {
+return line.replace("string","string").trim();
+else   if (line.trim().equals("string") || line.trim().equals("string")) {
+return "string";
+else {
+return "string";
+BufferedReader reader=null;
+reader=new BufferedReader(new FileReader(new File(filePath)));
+String line=null;
+while ((line=reader.readLine()) != null) {
+if (line.contains("string")) {
+break;
+text=text + line;
+text=text.replace("string","string").replace("string","string").replace("string","string").replace("string","string").replace("string","string").replace("string","string").trim();
+List<String> list=new ArrayList<String>();
+String[] strs=text.split("string");
+for (  String str : strs) {
+if (str.equals("string")) {
+continue;
+list.add(str);
+str="string";
+for (  String str : list) {
+text=text + str + "string";
+return text;
+reader=new BufferedReader(new FileReader(new File(filePath)));
+String str="string";
+String lineString=null;
+int i=0;
+while ((lineString=reader.readLine()) != null) {
+if (sign == 0) {
+text=text + lineString;
+if (lineString.contains("string")) {
+sign=0;
+String[] strList=text.trim().replace("string"string"string").replace("string"string"string").replace("string","string").replace("string"string"string").replace("\"string"string"string").replace("string"string"string").split("string");
+str="string";
+for (  String str : strList) {
+if (str.equals("string")) {
+continue;
+text=text + str + "string";
+return text;
+try {
+reader=new BufferedReader(new FileReader(filePath));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+for (int i=0; i < listoflist.size(); i++) {
+if (lineString.contains(listoflist.get(i).substring(0,listoflist.get(i).indexOf("string")))) {
+String[] wordlist=lineString.split("string");
+for (int i=0; num < wordlist.length; num++) {
+if (wordlist[num].trim().equals(listoflist.get(i).substring(0,listoflist.get(i).indexOf("string")))) {
+if (!wordlist[num].trim().equals("string")) {
+listoflist.get(i).replace(listoflist.get(i).substring(0,listoflist.get(i).indexOf("string")),wordlist[num - 0]);
+String rep=lineString.trim().substring(0,lineString.trim().indexOf("string"));
+if (!rep.equals("string")) {
+listoflist.get(i).replace(listoflist.get(i).subSequence(0,listoflist.get(i).indexOf("string")),rep);
+reader.close();
+catch (  Exception e) {
+return "string";
+try {
+List<String> imps=new Helper().getImport(filePath);
+for (    String str : listoflist) {
+if (imps.contains(str.substring(0,str.indexOf("string")))) {
+continue;
+else {
+return "string";
+if (listoflist.toString().replace("string"string"string").replace("string"string"string").equals("string")) {
+return "string";
+String APIline=listoflist.toString().replace("string"string"string").replace("string"string"string").replace("string","string");
+return APIline;
+catch (  Exception e) {
+return "string";
+String str="string";
+String str="string";
+Pattern pattern=null;
+Matcher matcher=null;
+int i=0;
+while (string.contains("string") && string.contains("string") && count < 0) {
+pattern=Pattern.compile(str1);
+matcher=pattern.matcher(string);
+while (matcher.find()) {
+string=matcher.replaceAll("string");
+count++;
+int i=0;
+while (string.contains("string") && string.contains("string") && count < 0) {
+pattern=Pattern.compile(str2);
+matcher=pattern.matcher(string);
+while (matcher.find()) {
+string=matcher.replaceAll("string");
+count1++;
+if (count == 0) {
+return "string";
+return string.replace("string","string").replace("string","string").replace("string","string");
+catch (  Exception e) {
+return "string";
+FileWriter fw=null;
+BufferedWriter writer=null;
+try {
+fw=new FileWriter(file,true);
+writer=new BufferedWriter(fw);
+writer.write(lineId + "string" + annotation);
+writer.newLine();
+writer.flush();
+catch (  IOException e) {
+e.printStackTrace();
+try {
+writer.close();
+fw.close();
+catch (  Exception e) {
+e.printStackTrace();
+BufferedWriter writer=null;
+try {
+writer=new BufferedWriter(new FileWriter(file));
+catch (  IOException e) {
+e.printStackTrace();
+List<String> list=new ArrayList<String>();
+new Tools().getAllJavaFile(dictionaryName,list);
+for (  String str : list) {
+try {
+writer.append(str);
+writer.newLine();
+writer.flush();
+catch (    IOException e) {
+e.printStackTrace();
+writer.close();
+File file=new File(filePath);
+String parent=file.getParent().substring(file.getParent().lastIndexOf("string") + 0);
+BufferedReader reader=null;
+try {
+reader=new BufferedReader(new FileReader(filePath));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.contains("string") && !(lineString.split("string").length == 0) && !lineString.contains(parent)) {
+String[] imps=lineString.split("string");
+String imp=imps[0];
+if (imp.substring(imp.lastIndexOf("string") + 0).replace("string","string").equals("string")) {
+continue;
+impString.add(imp.substring(imp.lastIndexOf("string") + 0).replace("string","string"));
+reader.close();
+catch (  Exception e) {
+e.printStackTrace();
+return impString;
+BufferedReader reader=null;
+FileWriter fw=null;
+BufferedWriter writer=null;
+FileReader fileReader=null;
+reader=null;
+fw=null;
+writer=null;
+fileReader=null;
+try {
+fileReader=new FileReader(fileName);
+catch (  FileNotFoundException e2) {
+e2.printStackTrace();
+int i=0;
+int i=0;
+int i=0;
+int i=0;
+try {
+reader=new BufferedReader(fileReader);
+String lineString=null;
+fw=new FileWriter(file,true);
+writer=new BufferedWriter(fw);
+while ((lineString=reader.readLine()) != null) {
+if (countNum == 0 && (!lineString.contains("string"))) {
+del=0;
+if (countNum == 0 && (lineString.contains("string") || lineString.contains("string"))) {
+del=0;
+if (lineString.contains("string") && lineString.contains("string")) {
+del=0;
+if (lineString.contains("string")) {
+de=countNum;
+count=0;
+countNum++;
+if (count != 0) {
+count++;
+if ((lineString.contains("string") && lineString.contains("string") && !lineString.contains("string"))) {
+del=0;
+catch (  IOException e) {
+e.printStackTrace();
+try {
+fileReader.close();
+fw.close();
+writer.close();
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+if (del == 0 || count <= 0 || de > 0) {
+System.gc();
+boolean b=file.delete();
+BufferedReader reader=new BufferedReader(new FileReader(new File(filePath)));
+BufferedReader reader0=new BufferedReader(new FileReader(new File("string")));
+BufferedWriter writer=new BufferedWriter(new FileWriter(new File("string")));
+BufferedWriter writer0=new BufferedWriter(new FileWriter(new File("string")));
+String str="string";
+String str="string";
+String line0=null;
+String line0=null;
+while ((line0=reader.readLine()) != null && (line0=reader0.readLine()) != null) {
+if (line0.equals("string") || line0.equals("string")) {
+continue;
+if (!text0.contains(line0.split("string")[0])) {
+text0=text0 + "string" + line0.split("string")[0];
+text0=text0 + "string" + line0.split("string")[0]+ "string"+ line0.split("string")[0];
+String[] str0=text0.split("string");
+String[] str0=text0.split("string");
+int i=0;
+for (  String str : str0) {
+if (str.equals("string")) {
+continue;
+writer.append(String.valueOf(index) + "string" + str);
+writer.newLine();
+writer.flush();
+index++;
+i=0;
+for (  String str : str0) {
+if (str.equals("string")) {
+continue;
+writer0.append(String.valueOf(index) + "string" + str);
+writer0.newLine();
+writer0.flush();
+index++;
+BufferedWriter writer0=new BufferedWriter(new FileWriter(new File("string")));
+BufferedWriter writer0=new BufferedWriter(new FileWriter(new File("string")));
+BufferedWriter writer3=new BufferedWriter(new FileWriter(new File("string")));
+String path=null;
+int i=0;
+while ((path=reader.readLine()) != null) {
+String[] paths=path.replace("string","string").split("string");
+path=paths[0] + "string" + paths[0];
+String annotation=new Helper().getAnnotation(path);
+String description=new Helper().getDescription(path);
+String method=new Helper().getMethodContent(path);
+writer0.append(index + "string" + annotation);
+writer0.newLine();
+writer0.flush();
+writer0.append(index + "string" + description);
+writer0.newLine();
+writer0.flush();
+writer3.append(index + "string" + method);
+writer3.newLine();
+writer3.flush();
+index++;
+BufferedReader reader3=new BufferedReader(new FileReader(new File("E:/file_new00.txt")));
+BufferedWriter writer0=new BufferedWriter(new FileWriter(new File("string")));
+BufferedWriter writer3=new BufferedWriter(new FileWriter(new File("string")));
+String annotation=null;
+String description=null;
+String method=null;
+String str="string";
+String str="string";
+String str="string";
+while ((annotation=reader0.readLine()) != null && (method=reader3.readLine()) != null) {
+if (!text0.contains(annotation.trim().split("string")[0])) {
+text0=text0 + annotation.trim().split("string")[0].replace("string","string") + "string";
+text3=text3 + method.trim().substring(method.indexOf("string") + 0,method.trim().length()).replace("string","string") + "string";
+String[] str0=text0.split("string");
+String[] str2=text2.split("string");
+String[] str3=text3.split("string");
+int i=0;
+for (  String str : str0) {
+if (str.equals("string")) {
+continue;
+writer0.append(String.valueOf(index) + "string" + str);
+writer0.newLine();
+writer0.flush();
+index++;
+i=0;
+for (  String str : str3) {
+if (str.equals("string")) {
+continue;
+writer3.append(String.valueOf(index) + "string" + str);
+writer3.newLine();
+writer3.flush();
+index++;
+Class cls=null;
+try {
+cls=Class.forName(clsName);
+catch (  ClassNotFoundException e) {
+return list;
+for (int i=0; i < cls.getMethods().length; i++) {
+String string=cls.getMethods()[i].toString();
+String[] strs=string.split("string");
+for (    String str : strs) {
+if (str.contains("string")) {
+str=str.substring(0,str.indexOf("string"));
+str=str.substring(str.lastIndexOf("string") + 0);
+if (!list.contains(str)) {
+list.add(str);
+return list;
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.startsWith("string")) {
+if (!importsList.contains(lineString.split("string")[0]) && lineString.split("string")[0].startsWith("string")) {
+importsList.add(lineString.split("string")[0].replace("string","string"));
+return importsList;
+File[] files=root.listFiles();
+for (  File file : files) {
+if (file.isDirectory()) {
+this.getAllJavaFile(file.getAbsolutePath(),fileList);
+if (file.isFile()) {
+if (file.getAbsolutePath().endsWith("string")) {
+if (!fileList.contains(file.getAbsolutePath())) {
+fileList.add(file.getAbsolutePath());
+List<String> fileList=new ArrayList<String>();
+new Helper_reflection().getAllJavaFile(fileName,fileList);
+for (  String file : fileList) {
+BufferedReader reader=new BufferedReader(new FileReader(new File(file)));
+String lineString=null;
+while ((lineString=reader.readLine()) != null) {
+if (lineString.startsWith("string")) {
+if (!importsList.contains(lineString.split("string")[0].replace("string","string")) && lineString.split("string")[0].startsWith("string")) {
+importsList.add(lineString.split("string")[0].replace("string","string"));
+return importsList;
+BufferedReader reader=null;
+try {
+reader=new BufferedReader(new FileReader(file));
+catch (  FileNotFoundException e) {
+e.printStackTrace();
+try {
+String line=reader.readLine();
+reader.close();
+return line;
+catch (  IOException e) {
+e.printStackTrace();
+try {
+reader.close();
+catch (  IOException e) {
+e.printStackTrace();
+return "string";
+try {
+importList=new Helper_reflection().getProjectImports(fileName);
+catch (  Exception e1) {
+e1.printStackTrace();
+List<Object> totalList=new ArrayList<Object>();
+for (  String str : importList) {
+try {
+List<String> li=new LinkedList<String>();
+try {
+li=new Helper_reflection().getMethodsOfClass(str);
+catch (      ClassNotFoundException e) {
+e.printStackTrace();
+if (li.isEmpty()) {
+continue;
+List<Object> child=new ArrayList<Object>();
+child.add(str);
+child.add(li);
+totalList.add(child);
+catch (    ExceptionInInitializerError e) {
+continue;
+catch (    NoClassDefFoundError e1) {
+continue;
+return totalList;
+for (  String str : fileName) {
+try {
+List<String> li=new Helper_reflection().getMethodsOfClass(str);
+List<Object> child=new ArrayList<Object>();
+child.add(str);
+child.add(li);
+totalList.add(child);
+catch (    ClassNotFoundException e) {
+continue;
+catch (    NoClassDefFoundError e) {
+continue;
+return totalList;
+String method=str.split("string")[0];
+String str="string";
+for (int i=0; i < list.size(); i++) {
+List<Object> child=(List<Object>)list.get(i);
+String impor=(String)child.get(0);
+List<String> sele=(List<String>)child.get(0);
+if (sele.contains(method)) {
+repla=impor;
+if (repla.equals("string")) {
+return "string";
+else {
+return repla + "string" + method;
+File[] files=rootfile.listFiles();
+for (  File file : files) {
+if (file.isDirectory()) {
+fileList.add(file.getAbsolutePath());
+if (file.isFile()) {
+continue;
+String str="string";
+List<String> methodsList=new LinkedList<String>();
+for (  String str : listoflist) {
+if (str.contains("string")) {
+methodsList.add(str);
+if (methodsList.isEmpty()) {
+return "string";
+List<String> classImports;
+List<Object> impor;
+try {
+classImports=new Helper_reflection().getImportsInAFile(filePath);
+impor=new Helper_reflection().getAllMethodsOFListImports(classImports);
+catch (  Exception e) {
+impor=new LinkedList<Object>();
+for (  String str : methodsList) {
+if (str.toCharArray()[0] >= 'C' && str.toCharArray()[0] <= 'C') {
+finalList.add(str);
+continue;
+replaced=new Helper_reflection().getReplacedAPI(impor,str);
+if (replaced.equals("string")) {
+replaced=new Helper_reflection().getReplacedAPI(pro_imports,str);
+finalList.add(replaced);
+if (finalList.isEmpty()) {
+return "string";
+else {
+String str="string";
+for (    String s : finalList) {
+final_string=final_string + s + "string";
+return final_string;
+File[] files=root.listFiles();
+if (files.length == 0) {
+fileList=new LinkedList<String>();
+for (  File file : files) {
+if (file.isDirectory()) {
+this.getAllJavaFile(file.getAbsolutePath(),fileList);
+if (file.isFile()) {
+if (file.getAbsolutePath().endsWith("string")) {
+if (!fileList.contains(file.getAbsolutePath())) {
+fileList.add(file.getAbsolutePath());
+BufferedReader reader=null;
+try {
+reader=new BufferedReader(new FileReader(file));
+catch (  FileNotFoundException e) {
+e.printStackTrace();
+String str="string";
+String line=null;
+while ((line=reader.readLine()) != null) {
+text=text + line + "string";
+return text;
+this.nodeList=new ArrayList<MyASTNode>();
+this.mapping=new ArrayList<int[]>();
+FileWriter writer=new FileWriter(FilePath);
+writer.write(str);
+writer.close();
+catch (  IOException e) {
+e.printStackTrace();
+if (operationDesc == null) {
+return proxyParams;
+Vector paramsCall=new Vector();
+for (int i=0; (proxyParams != null) && (i < proxyParams.length); i++) {
+char my_char='';
+boolean my_boolean=true;
+int i=0;
+String str="";
+float j=0.0;
+double[] doubles=new double[0];
+float[] floats=new float[0];
+int[] ints=new int[0];
+ii[0]=0;
+Object param=proxyParams[i];
+Object ob=new Object();
+ParameterDesc paramDesc=operationDesc.getParameter(i);
+if (paramDesc.getMode() == 0) {
+paramsCall.add(JavaUtils.getHolderValue((Holder)param));
+else     if (paramDesc.getMode() == 0) {
+paramsCall.add(param);
+return paramsCall.toArray();
+if (operationDesc == null) {
+return;
+Map outputParams=this.call.getOutputParams();
+for (int i=0; i < operationDesc.getNumParams(); i++) {
+Object param=proxyParams[i];
+ParameterDesc paramDesc=operationDesc.getParameter(i);
+if ((paramDesc.getMode() == 0) || (paramDesc.getMode() == 0)) {
+JavaUtils.setHolderValue((Holder)param,outputParams.get(paramDesc.getQName()));
+this.call.setProperty((String)objects[0],objects[0]);
+return null;
+if (method.getName().equals("string"))   return this.call.getProperty((String)objects[0]);
+if (method.getName().equals("string"))   return this.call.getPropertyNames();
+if (Object.class.equals(method.getDeclaringClass())) {
+return method.invoke(this.call,objects);
+Object outValue;
+Object outValue;
+if ((this.call.getTargetEndpointAddress() != null) && (this.call.getPortName() != null)) {
+this.call.setOperation(method.getName());
+Object[] paramsCall=proxyParams2CallParams(objects);
+outValue=this.call.invoke(paramsCall);
+else {
+Object outValue;
+if (this.portName != null) {
+this.call.setOperation(this.portName,method.getName());
+Object[] paramsCall=proxyParams2CallParams(objects);
+outValue=this.call.invoke(paramsCall);
+else {
+Object[] paramsCall=objects;
+outValue=this.call.invoke(method.getName(),paramsCall);
+callOutputParams2proxyParams(objects);
+return outValue;
+this.portName=new ArrayList();
+this.portName.add(SOAPHeaderElement);
+if (operationDesc == null) {
+return proxyParams;
+Vector paramsCall=new Vector();
+for (int i=0; (proxyParams != null) && (i < proxyParams.length); i++) {
+char my_char='';
+boolean my_boolean=true;
+int i=00;
+String str="";
+float j=0.0;
+Object param=proxyParams[i];
+ParameterDesc paramDesc=operationDesc.getParameter(i);
+if (paramDesc.getMode() == 0) {
+paramsCall.add(JavaUtils.getHolderValue((Holder)param));
+else     if (paramDesc.getMode() == 0) {
+paramsCall.add(param);
+return paramsCall.toArray();
